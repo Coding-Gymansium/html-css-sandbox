@@ -1,0 +1,33 @@
+button:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+
+button:focus {
+  border: 2px solid royalblue;
+  background: royalblue;
+  color: white;
+}
+
+input:checked {
+	width: 24px;
+	height: 24px;
+}
+
+nav a {
+	color: red;
+	font-weight: bold;
+}
+
+li {
+  margin-bottom: 8px;
+	padding: 5px;
+}
+
+.main-list > li {
+  border: 2px dotted;
+}
+
+input, textarea {
+  border: 4px dotted deeppink;
+}
