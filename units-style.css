@@ -1,0 +1,42 @@
+.em p {
+  /* Change me! */
+  font-size: 18px;
+  
+  padding-bottom: 2em;
+  border: 1px solid;
+}
+
+.em1 p {
+	font-size: 54px;
+}
+
+html {
+  font-size: 16px;
+}
+
+.rem h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+.rem h2 {
+  font-size: 1.25rem;
+  margin-bottom: 1.5rem;
+  color: gray;
+}
+
+.rem p {
+  font-size: 1rem;
+}
+
+.box {
+  width: 250px;
+  height: 250px;
+  background-color: pink;
+}
+
+.child {
+  width: 50%;
+  height: 75%;
+  background-color: black;
+}
