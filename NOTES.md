@@ -23,3 +23,13 @@
 
 
 ```
+
+### Box sizing set up default `border-box`
+
+```css
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+```
