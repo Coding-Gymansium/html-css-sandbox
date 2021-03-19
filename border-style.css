@@ -1,0 +1,45 @@
+/* .box {
+  width: 50px;
+  height: 50px;
+  border: 10px solid;
+}
+
+.box.one {
+  border-color: deeppink;
+}
+
+.box.two {
+  border-color: gold;
+}
+
+.box.three {
+  border-color: turquoise;
+} */
+
+.box {
+  width: 100px;
+  height: 50px;
+  border: 4px solid;
+}
+
+.box.one {
+  /*
+    Setting TEXT color,
+    not border color
+  */
+  color: hotpink;
+}
+
+.box.two {
+  color: slateblue;
+}
+
+/* If you want to specify this behaviour explicitly, it can be done with the special currentColor keyword.
+
+currentColor is always a reference to the element's derived text color (whether set explicitly or inherited), and it can be used anywhere a color might be used:
+
+.box {
+  color: hotpink;
+  border: 1px solid currentColor;
+  box-shadow: 2px 2px 2px currentColor;
+} */
