@@ -43,3 +43,7 @@ currentColor is always a reference to the element's derived text color (whether 
   border: 1px solid currentColor;
   box-shadow: 2px 2px 2px currentColor;
 } */
+
+.even-box {
+  border-radius: 25px;
+}
